@@ -1,14 +1,84 @@
+body{
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*cabecera*/
+
+.cabecera{
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.cabecera p{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cabecera h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+ /*menu*/
+.header {
+  background: #e3f2f9;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menunav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+}
+
+.menunav a:hover {
+  color: #007BFF;
+}
+
+/*botton join*/
+
+.joinnow{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.joinnow:hover {
+  background: #0056b3;
+}
 
 
 
 
+.imgpares{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
-
-
-
-
-
-
+.imgpares img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
 
 
 
@@ -20,14 +90,14 @@
 /*Segundo bloque parte Wellbeing*/
 
 .wellbeing-section{
-    background-color: #f8f8f8; /* Fondo gris claro */
+    background-color: #f8f8f8;
     padding: 2rem;
     text-align: center;
   }
   
   .wellbeing-section h1 {
     font-size: 2rem;
-    color: #222; /* Color del título */
+    color: #222; 
     margin-bottom: 2rem;
   }
 
@@ -62,3 +132,73 @@
     max-width: 200px;
     margin: auto;
   }
+
+
+  .hoja{
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+
+  .hojas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /*fresh*/
+
+  .fresh {
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.fresh h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.fresh li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.fresh ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+/*food*/
+
+.food {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.food h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+
+.iconoplanta {
+  width: 50px;
+  height: 50px;
+}
+
+.iconosplantas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rosa{
+  background-color: #fce2d7;
+  text-align: center;
+  padding: 20px;
+}
