@@ -265,6 +265,9 @@ body{
 
 .textoencima button{
   color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
 }
 
 footer {
